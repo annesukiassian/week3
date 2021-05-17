@@ -21,7 +21,6 @@ public class Exercise15 {
         System.out.println("The min is " + min(arr));
         System.out.println("The max is " + max(arr));
     }
-
     public static double average(int[] arr) {
         double average;
         double sum = 0.00;
@@ -31,7 +30,6 @@ public class Exercise15 {
         average = sum / arr.length;
         return average;
     }
-
     public static int min(int[] arr) {
         int minIndex = 0;
         for (int i = 1; i < arr.length; i++) {
@@ -43,7 +41,6 @@ public class Exercise15 {
         }
         return arr[minIndex];
     }
-
     public static int max(int[] arr) {
         int maxIndex = 0;
         for (int i = 1; i < arr.length; i++) {
